@@ -1,0 +1,33 @@
+# System / IDE
+.DS_Store
+.idea/
+__pycache__/
+
+# Virtual env
+venv/
+
+# Local caches / logs
+/tmp/
+*.log
+
+# Generated results (exclude play/test outputs)
+seria */
+serie_kalibracji/
+wyniki_pomiarow_*/
+debug_charuco/
+calibration_opencv4x/
+
+# Large media generated during runs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+# Keep pattern assets
+!patterns/
+!patterns/*.jpg
+
